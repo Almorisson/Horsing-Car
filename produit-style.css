@@ -1,0 +1,110 @@
+html{
+    background-image:url("https://cdn.hipwallpaper.com/i/67/19/TXEAb1.jpg");
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+
+/*BLOC TITRE*/
+
+.classe{
+    width:4px;
+    height:100%;
+    background-color: #8651FC;
+    float:left;
+}
+.name{
+    margin-top:2%;
+    margin-left:6%;
+    margin-right:6%;
+    width:90%;
+    height:16%;
+    background-color: #242424;
+}
+h1{
+    text-align: center;
+    line-height: 118px;
+    color:white;
+    font-size: 380%;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 1;
+}
+
+/*LES 2 BLOCS DESCRIPTION*/
+
+.description{
+    display: flex;
+    margin: 1rem;
+}
+
+.desc{
+    flex: 1;
+    border: solid 1px #8651FC;
+    border-radius: 10px;
+    background-image:url("http://www.pptbackgrounds.org/uploads/elegant-grey-illumination-background-presentations-powerpoint-backgrounds.jpg");
+    background-size:100%;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+}
+
+.desc + .desc{
+    flex: 2;
+    margin-left: 1rem;
+}
+
+.desc2 {
+    padding: .5em 1em;
+    font-size: 130%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/*LES 2 IMAGES*/
+
+.image {
+    vertical-align: top;
+    width: 100%;
+}
+
+/*LA LISTE*/
+
+ul{
+    list-style-type:none;
+}
+
+/*BOUTTON*/
+
+.bouton{
+    animation:bouton 5s infinite linear;
+    position:relative;
+    margin-left:5%;
+}
+
+/*BOUTTON ANIMATION*/
+
+@keyframes bouton{
+    0%{top:0em}
+    40%{top:0em}
+    43%{top:-0.9em}
+    46%{top:0em}
+    48%{top:-0.4em}
+    50%{top:0em}
+    100%{top:0em;}
+}
+
+a.bouton{
+    padding: 7px 30px;
+    /*    background:grey;*/
+    color: white;
+    background: rgba(255,255,255,0);
+    border-radius: 3px;
+    border: 1px solid white;
+    text-decoration:none;
+    transition: background 0.20s;
+}
+
+a.bouton:hover {
+    background: rgba(255,255,255,0);
+    color: #EAECEE;
+    border: 2px solid #8651FC;
+    transition: background 0.0s;
+}

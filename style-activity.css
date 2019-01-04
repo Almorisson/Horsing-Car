@@ -1,0 +1,53 @@
+body{
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+header, main{
+  display: flex;
+}
+
+
+header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+  flex-basis: 800px;
+}
+
+
+article{
+  flex-basis: 60%;
+}
+
+nav{
+  background: blue;
+  flex-basis: 20%;
+  order: -1;
+}
+
+aside{
+  background: gray;
+  flex-basis: 20%;
+}
+
+header, footer{
+
+  background: green;
+  flex-basis: 100px;
+}
+
+
+@media all and (max-width: 640px) {
+
+  main{
+    flex-direction: column;
+  }
+
+}

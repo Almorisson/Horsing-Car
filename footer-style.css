@@ -1,0 +1,147 @@
+    /* Main Styles for all pages*/
+
+body{
+  display: flex
+  height: 100vh;
+  width: 100vw;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Positionnement of the FOOTER*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  background: #606060;
+  height: 120px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+footer div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 2;
+}
+footer div a h3 {
+  color: rgba(255, 255, 255, 0.3);
+  text-shadow: 2px 2px 2px black  ;
+  text-transform: capitalize;
+  font-size: 300%;
+
+}
+footer a {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: bold;
+  font-family: 'Oswald', Tahoma, sans-serif;
+  text-decoration:none;
+
+}
+
+footer p {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  text-transform: uppercase;
+  text-transform: bold;
+  letter-spacing: 1px;
+}
+/* FOOTER LOGO STYLES*/
+#img-footer{
+  width:60px;
+  height:100px;
+  background-size: cover;
+}
+
+ul{
+    list-style: none;
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+footer ul li{
+    margin-left: 15px;
+    font-size: 150%;
+    max-height: 150px;
+}
+
+@media all and (max-width: 800px){
+
+    footer div a h3{
+      display: flex;
+      font-size: 200%;
+      flex-wrap: nowrap;
+    }
+}
+
+@media all and (max-width: 640px) {
+    footer{
+      display: flex;
+      height: 200px;
+      margin-bottom: 0;
+      padding: 0;
+
+    }
+    footer div{
+      display: flex;
+      flex-direction: column;
+    }
+    footer div img{
+      display: flex;
+      order: -1;
+    }
+
+    footer div a h3{
+      display: flex;
+      font-size: 100%;
+      align-self: center;
+      justify-content: center;
+  }
+  footer p {
+      flex-direction: column;
+      flex-shrink: 2;
+      align-items: center;
+      justify-content: center;
+  }
+
+}
+
+@media all and (max-width: 480px) {
+    footer{
+      display: flex;
+      height: 250px;
+      padding: 0;
+    }
+    footer div img{
+      flex-direction: column;
+      order: -1;
+    }
+
+    footer div{
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    footer div a h3{
+      display: flex;
+      font-size: 100%;
+      align-self: center;
+      justify-content: center;
+  }
+
+  footer p {
+      flex-direction: column;
+      flex-shrink: 3;
+      align-items: center;
+      justify-content: center;
+  }
+
+}

@@ -1,0 +1,73 @@
+
+form {
+  display: flex;
+  flex-direction: column;
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+fieldset{
+  flex-basis: auto;
+  flex-flow: row wrap;
+
+}
+
+fieldset select{
+  margin-left: 50px;
+}
+
+hr{
+  margin-bottom: 10px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=select] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-top: 50px;
+  }
+
+input[type=submit]:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+    display: block;
+
+}
+
+
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+
+
+#container h2{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#select-2 {
+  margin-left: 60px;
+}

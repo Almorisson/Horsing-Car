@@ -1,0 +1,74 @@
+html{
+background-image:url(https://www.audi.fr/dam/nemo/models/a4/rs-4-avant/my-2018/1920x1080-media-text-combi-XL/1920x1080_11_MediaTextCombi_XL_ARS4_171001.jpg);
+}
+
+/* body{
+  display: table;
+} */
+
+img{
+    margin-left: auto;
+    margin-top:25px;
+    width:200px;
+    height:100px;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 10px;
+    border: 1px solid black;
+    transform: scale(1);
+    transition: .6s ease-in-out;
+    /* position: relative; */
+}
+img:hover{
+    filter: saturate(250%);
+    transform: scale(1.3);
+}
+/* .voiture {
+  width:260px;
+  height:260px;
+  margin-left:6%;
+  margin-right:40px;
+  margin-top:13px;
+  float:left;
+  text-align:center;
+  border: 1px solid black;
+} */
+
+
+table td{
+  /* background-color: #777777; */
+  color: #262626;
+  border: 1px solid black;
+  padding: 15px 25px;
+  text-shadow: 2px 2px 2px #FFF, 2px 2px 2px skyblue;
+}
+
+table th{
+  color: #FFF;
+  border: 1px solid black;
+  background-color: hsla(0, 100%, 30%, 0.3);
+  padding: 5px 0px;
+  text-shadow: 2px 2px 2px black;
+}
+
+table{
+  border-collapse: collapse;
+  margin-left: 15px;
+}
+
+caption {
+  color: #262626;
+  text-shadow: 1px 2px 2px #FFF;
+  font-family: "Oswald", Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 200%;
+  margin-bottom: 5px;
+}
+
+tr.ligneImpaire{
+  background: #BBB;
+}
+
+tr.lignePaire{
+  background: #FFF;
+}
